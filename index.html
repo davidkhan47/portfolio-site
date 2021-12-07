@@ -1,0 +1,994 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Khan's portfolio</title>
+	<link rel="icon" href="img/faviconkhan.png" type="icon/x-icon">
+	<link rel="stylesheet" href="style/normalize.css">
+	<link rel="stylesheet" href="style/fonts.css">
+	<link rel="stylesheet" href="style/aos.css">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+
+	<!-- FONT AWESOME -->
+	<link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- my fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<style>
+		/* preloader *******************/
+		/******************************/
+		.preloader {
+			position: fixed;
+			width: 100%;
+			height: 100vh;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background: #0a0a0a;
+			z-index: 2;
+		}
+	
+	</style>
+</head>
+
+<body>
+
+	<!-- div .preloader -->
+	<div id="preloader" class="preloader"></div>
+	<!-- /div .preloader END -->
+
+	<!-- div .wrapp -->
+	
+	<div style='z-index:1;' class="wrapp _bg-color_general">
+
+		<!-- button .up -->
+		<button class="up _link _cursor">
+			<span>up</span>
+			<img src="img/arrow.png" alt="up">
+		</button>
+		<!-- /button .up END -->
+
+		<!-- nav .nav -->
+		
+		<nav class="nav" >
+			
+			<span class="logo">KHAN  </span>
+			<div class="nav__menu _cursor">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="nav__menu-close _cursor">
+				<span></span>
+				<span></span>
+			</div>
+		</nav>
+		<!-- /nav .nav END -->
+
+		<!-- div .nav__popup -->
+		<div class="nav__popup">
+			<!-- div .nav__popup-wrapp -->
+			<div class="nav__popup-wrapp">
+				<!-- div .nav__popup-menu -->
+				<ul id="menu" class="nav__popup-menu menu">
+
+					<li class="nav__popup-item">
+						<a href="#home" class="nav__popup-link prevent_default menu__item">
+							<span class="nav__popup-name menu__item-textinner">home</span>
+							<span class="nav__popup-num">/01</span>
+						</a>
+					</li>
+
+					<li class="nav__popup-item">
+						<a href="work.html" class="nav__popup-link menu__item">
+							<span class="nav__popup-name">portfolio</span>
+							<span class="nav__popup-num">/02</span>
+						</a>
+					</li>
+
+					<li class="nav__popup-item">
+						<a href="index-1.htm" target="_blank" class="nav__popup-link menu__item">
+							<span class="nav__popup-name">blog</span>
+							<span class="nav__popup-num">/06</span>
+						</a>
+					</li>
+
+					<li class="nav__popup-item">
+						<a href="#about" class="nav__popup-link prevent_default menu__item">
+							<span class="nav__popup-name">about</span>
+							<span class="nav__popup-num">/03</span>
+						</a>
+					</li>
+
+					<li class="nav__popup-item">
+						<a href="#services" class="nav__popup-link prevent_default menu__item">
+							<span class="nav__popup-name">services</span>
+							<span class="nav__popup-num">/04</span>
+						</a>
+					</li>
+
+					<li class="nav__popup-item">
+						<a href="#contact" class="nav__popup-link prevent_default menu__item">
+							<span class="nav__popup-name">contact</span>
+							<span class="nav__popup-num">/05</span>
+						</a>
+					</li>
+
+				</ul>
+				<!-- /div .nav__popup-menu END -->
+			</div>
+			<!-- /div .nav__popup-wrapp END -->
+		</div>
+		<!-- /div .nav__popup END -->
+
+		<!-- div .qr__popup -->
+		<div class="qr__popup">
+
+			<div class="close__popup qr__close _cursor">
+				<span class="_gradient"></span>
+				<span class="_gradient"></span>
+			</div>
+
+			<!-- div .qr__popup-wrapp -->
+			<div class="qr__popup-wrapp">
+
+				<h2>Scan <span>QR-code</span> to view <br> my instagram :)</h2>
+
+				<div class="qr__img">
+					<img src="img/qr-code.png" alt="qr-code">
+				</div>
+
+			</div>
+			<!-- /div .qr__popup-wrapp END -->
+		</div>
+		<!-- /div .qr__popup END -->
+
+		<!-- div .popup-work -->
+		<div class="popup-work">
+
+			<div class="close__popup popup-work__close _cursor">
+				<span class="_gradient"></span>
+				<span class="_gradient"></span>
+			</div>
+
+			<div class="popup-work__loading">
+				<p>loading...</p>
+			</div>
+
+			<!-- div .popup-work__wrapp -->
+			<div class="popup-work__wrapp">
+
+				<!-- div .popup-work__item .popup-work__img -->
+				<div class="popup-work__item popup-work__img">
+					<img src="" alt="">
+				</div>
+				<!-- /div .popup-work__item .popup-work__img END -->
+
+				<!-- div .popup-work__item .popup-work__item_color -->
+				<div class="popup-work__item popup-work__item_color">
+
+					<div class="popup-work__bl">
+
+						<div class="popup-work__title">
+							<h2></h2>
+						</div>
+						<div class="popup-work__desc">
+
+						</div>
+					</div>
+
+				</div>
+				<!-- /div .popup-work__item .popup-work__item_color END -->
+			</div>
+			<!-- /div .popup-work__wrapp END -->
+		</div>
+		<!-- /div .popup-work END -->
+
+		<!-- div .serv__popup -->
+		<div class="serv__popup">
+
+			<div class="close__popup serv__close _cursor">
+				<span class="_gradient"></span>
+				<span class="_gradient"></span>
+			</div>
+
+			<!-- div .wrapp-content -->
+			<div class="wrapp-content">
+
+				<div class="content">
+
+					<div class="serv__popup-wrapp">
+						<h2>
+							<span class="serv__title">Create project</span>
+							<span class="serv__name">
+								<span class="serv__text"></span>
+								<span class="serv_line _gradient"></span>
+							</span>
+						</h2>
+
+
+						<!-- div .form__wrapp -->
+						<div class="form__wrapp">
+							<!-- div .form__enter -->
+							<form id="form__serv" action="#" class="form__enter">
+
+								<label class="form__label _cursor">
+									<span class="input_line"></span>
+									<input id="name" type="text" name="name" class="form__input form_style"
+										placeholder="Name*" required="">
+									<span class="input-placeholder">Name*</span>
+								</label>
+
+								<label class="form__label _cursor">
+									<span class="input_line"></span>
+									<input id="email" type="email" name="mail" class="form__input form_style"
+										placeholder="E-mail*" required="">
+									<span class="input-placeholder">E-mail*</span>
+								</label>
+
+								<label class="form__label _cursor">
+									<span class="input_line"></span>
+									<textarea name="message" id="message" class="form__input form__message form_style"
+										placeholder="Message"></textarea>
+									<span class="input-placeholder">Message</span>
+								</label>
+								<input class="serv__select" type="hidden" name="serv" value="">
+
+								<button class="form__submit form_style _cursor">send</button>
+
+							</form>
+							<!-- /div .form__enter END -->
+						</div>
+						<!-- /div .form__wrapp END -->
+
+					</div>
+
+				</div>
+			</div>
+			<!-- /div .wrapp-content END -->
+
+		</div>
+		<!-- /div .serv__popuup END -->
+
+		<!-- div .form__popup -->
+		<div class="form__popup">
+
+			<div class="close__popup form__close _cursor">
+				<span class="_gradient"></span>
+				<span class="_gradient"></span>
+			</div>
+
+			<!-- div .wrapp-content -->
+			<div class="wrapp-content">
+
+				<div class="content">
+					<p class="form__success"><span>Message</span> sent successfully</p>
+				</div>
+			</div>
+			<!-- /div .wrapp-content END -->
+		</div>
+		<!-- /div .form__popup END -->
+
+		<!-- header .header -->
+		<header id="home" class="header">
+			<!-- div .wrapp-content -->
+			<div class="wrapp-content">
+				<!-- .div .content -->
+				<div class="content">
+					<!-- .div .header__wrapp -->
+					<div class="header__wrapp">
+
+						<div class="fon">
+							<img src="img/fon.png" alt="fon">
+							
+						</div>
+
+						<h1 style="margin-top:-177px; margin-left:-80px;transform: translateY(310px);"  class="header__title">
+							<p class="khan-khan-p" ><span class="header__sp letter_one">Khadjayev</span></p>
+							<p  class="khan-p"><span class="header__sp letter_two">David <span style="color: #fff;">khan</span> </span></p>
+							
+							
+						</h1>
+						<video autoPlay loop muted poster="video/plane.jpg" class="fullscreen-bg__video">
+							<source src="./img/video/video.mp4" type="video/mp4">
+							
+						</video>
+						
+						<video autoPlay loop muted poster="video/plane.jpg" class="video2">
+							<source src="./img/video/video2.mp4" type="video/mp4">
+						</video>
+						<!-- <a href="index-1.htm" class="header__blog-link _link" target="_blank">blog <img
+								class="link-arrow" src="img/arrow.png" alt="arrow"></a> -->
+							
+					</div>
+					<!-- /.div .header__wrapp END -->
+				</div>
+				<!-- /.div .content END -->
+			</div>
+			<!-- /div .wrapp-content END-->
+
+			<!-- .div .header__social -->
+			<ul class="header__social">
+
+				<li class="header__social-item">
+					<a href="https://www.facebook.com/davidkhan.khadjayev/" target="_blank" class="header__social-link _link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				</li>
+
+				<li class="header__social-item">
+					<a href="https://t.me/davidkhan47" target="_blank" class="header__social-link _link"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+				</li>
+
+				<li class="header__social-item">
+					<a href="https://www.instagram.com/davidkhan.__/" target="_blank" class="header__social-link _link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				</li>
+
+			</ul>
+			<!-- /.div .header__social END -->
+
+			<!-- .div .header__scroll -->
+			<div class="header__scroll _cursor">
+				<img src="img/scroll.png" alt="scroll">
+			</div>
+			<!-- /.div .header__scroll END -->
+
+			<!-- .span .header__qr -->
+			<span class="header__qr _link _cursor">QR-code</span>
+			<!-- /.span .header__qr END -->
+		</header>
+		<!-- /header .header END -->
+
+		<!-- section .work -->
+		<section id="work" class="work _padd_top-bott80">
+			<!-- div .wrapp-content -->
+			<div class="wrapp-content">
+				<!-- div .content -->
+				<div class="content">
+					<!-- div .title -->
+					<div class="title">
+						<span class="title__num" data-aos="fade-left" data-aos-delay="200">/02</span>
+						<h2 class="title__h2"><span class="title__h2-span" data-aos="anim_title"
+								data-splitting="">Works</span></h2>
+					</div>
+					<!-- /div .title END-->
+
+					<!-- div .work__wrapp -->
+					<div class="work__wrapp">
+
+						<div class="work__link">
+							<div class="work__anim" data-aos="anim_work" data-aos-offset="50" data-aos-duration="800">
+								<div class="work__link-wrapp">
+									<a href="#" class="work__link-elem displacement" data-title="Sport bikes"
+										data-img="bikes-c.jpg">
+										<img src="img/work/prev/sport-bikes/bikes-b.jpg" alt="workb">
+										<img src="img/work/prev/sport-bikes/bikes-c.jpg" alt="workc">
+									</a>
+									<div class="popup-work__desc">
+										<p>Author: <span class="work_name">kasimov uktambek</span></p>
+										<p>What: <span class="work_what">Design, Leayut, Integration on cms
+												OpenCart</span>
+										</p>
+										<p>When: <span class="work_year">2019</span></p>
+										<p>Site: <span class="work_site"><a href="#" target="_blank">#</a></span>
+										</p>
+										<!-- <p>О проекте: <span class="work_text">Lorem ipsum dolor </span></p> -->
+									</div>
+									<h3 class="work__name">Sport bikes</h3>
+								</div>
+								<span class="work__num">/001</span>
+							</div>
+						</div>
+
+						<div class="work__link">
+							<div class="work__anim" data-aos="anim_work" data-aos-offset="50" data-aos-duration="800">
+								<div class="work__link-wrapp">
+									<a href="#" class="work__link-elem displacement" data-title="Sun glasses"
+										data-img="glasses-c.jpg">
+										<img src="img/work/prev/sun-glasses/glasses-b.jpg" alt="workb">
+										<img src="img/work/prev/sun-glasses/glasses-c.jpg" alt="workc">
+									</a>
+									<div class="popup-work__desc">
+										<p>Author: <span class="work_name">khadjayev davidkhan</span></p>
+										<p>What: <span class="work_what">Design, Leayut, Integration on cms
+												OpenCart</span>
+										</p>
+										<p>When: <span class="work_year">2019</span></p>
+										<p>Site: <span class="work_site"><a href="#" target="_blank">#</a></span>
+										</p>
+										<!-- <p>О проекте: <span class="work_text">Lorem ipsum dolor </span></p> -->
+									</div>
+									<h3 class="work__name">Sun glasses</h3>
+								</div>
+								<span class="work__num">/002</span>
+							</div>
+						</div>
+
+						<div class="work__link">
+							<div class="work__anim" data-aos="anim_work" data-aos-offset="50" data-aos-duration="800">
+								<div class="work__link-wrapp">
+									<a href="#" class="work__link-elem displacement" data-title="Electro car"
+										data-img="electro-c.jpg">
+										<img src="img/work/prev/electro-car/electro-b.jpg" alt="workb">
+										<img src="img/work/prev/electro-car/electro-c.jpg" alt="workc">
+									</a>
+									<div class="popup-work__desc">
+										<p>Author: <span class="work_name">davidkhan khadjayev</span>></p>
+										<p>What: <span class="work_what">Design, Leayut, Integration on cms
+												OpenCart</span>
+										</p>
+										<p>When: <span class="work_year">2019</span></p>
+										<p>Site: <span class="work_site"><a href="#" target="_blank">#</a></span>
+										</p>
+										<!-- <p>О проекте: <span class="work_text">Lorem ipsum dolor </span></p> -->
+									</div>
+									<h3 class="work__name">Electro car</h3>
+								</div>
+								<span class="work__num">/003</span>
+							</div>
+						</div>
+
+						<div class="work__link">
+							<div class="work__anim" data-aos="anim_work" data-aos-offset="50" data-aos-duration="800">
+								<div class="work__link-wrapp">
+									<a href="#" class="work__link-elem displacement" data-title="Design"
+										data-img="design-c.jpg">
+										<img src="img/work/prev/design/design-b.jpg" alt="workb">
+										<img src="img/work/prev/design/design-c.jpg" alt="workc">
+									</a>
+									<div class="popup-work__desc">
+										<p>Author: <span class="work_name">davidkhan khadjayev</span></p>
+										<p>What: <span class="work_what">Design, Leayut, Integration on cms
+												OpenCart</span>
+										</p>
+										<p>When: <span class="work_year">2019</span></p>
+										<p>Site: <span class="work_site"><a href="#" target="_blank">#</a></span>
+										</p>
+										<!-- <p>О проекте: <span class="work_text">Lorem ipsum dolor </span></p> -->
+									</div>
+									<h3 class="work__name">Design</h3>
+								</div>
+								<span class="work__num">/004</span>
+							</div>
+						</div>
+
+					</div>
+					<!-- /div .work__wrapp END -->
+
+					<!-- div .work__view-all -->
+					<a href="work.html" class="work__view-all" data-aos="fade-left">
+						<span>View all work</span>
+						<span>\View all work\</span>
+						<span>View all work</span>
+					</a>
+					<!-- /div .work__view-all END -->
+				</div>
+				<!-- /div .content END -->
+			</div>
+			<!-- /div .wrapp-content END -->
+		</section>
+		<!-- /section .work END -->
+
+		<!-- section .about -->
+		<section id="about" class="about _padd_top-bott80">
+			<!-- div .wrapp-content -->
+			<div class="wrapp-content">
+				<!-- div .content -->
+				<div class="content">
+					<!-- div .title -->
+					<div class="title">
+						<span class="title__num" data-aos="fade-left" data-aos-delay="200">/03</span>
+						<h2 class="title__h2" data-splitting=""><span class="title__h2-span" data-aos="anim_title"
+								data-splitting="">About Me</span></h2>
+					</div>
+					<!-- /div .title END -->
+
+					<!-- div .about__wrapp -->
+					<div class="about__wrapp">
+
+						<div class="about__img displacement _cursor" data-aos="fade-up">
+							<img src="img/me-b.png" alt="meb">
+							<img src="img/me-c.jpg" alt="mec">
+						</div>
+
+						<div class="about__txt">
+							<span class="about__fon" data-aos="fade-left" data-aos-delay="500">me</span>
+							<h3 class="about__h3"><span data-aos="fade-left" data-aos-delay="200"> <span style="color: #222132;">I'm</span> Davidkhan</span>
+							</h3>
+							<p class="about__descript" data-aos="fade-up">I am engaged in website layout, from landing
+								pages to online stores, in compliance with all modern standards. I carry out the work
+								exactly on time.</p>
+							<p class="about__descript" data-aos="fade-up" data-aos-delay="200">I am also engaged in the
+								development of turnkey online stores. The project takes into account the opinion of the
+								customer, since the goal is to create not only an ideal website, but also a satisfied
+								client.</p>
+						</div>
+
+					</div>
+					<!-- /div .about__wrapp -->
+				</div>
+				<!-- /div .content END -->
+			</div>
+			<!-- /div .wrapp-content END -->
+		</section>
+		<!-- /section .about END -->
+
+		<!-- section .stack -->
+		<section class="stack _padd_top-bott80">
+			<div class="wrapp-content">
+				<div class="content">
+					<div class="about__title">
+						<h2 class="about__title-h2" data-aos="fade-left">
+							Technology
+							<span class="about__title-span" data-aos="fade-left" data-aos-delay="200">
+								<span>Stack</span>
+							</span>
+						</h2>
+					</div>
+					<div class="about__stack">
+						<div class="about__stack-item" data-aos="fade-up">
+							<div class="about__stack-img">
+								<img src="img/stack/st1.png" alt="st1">
+							</div>
+							<div class="about__stack-txt">
+								<span class="about__stack-num">/001</span>
+								<span class="about__stack-title">Photoshop & Figma</span>
+								<p class="about__stack-descript">Knowledge of allows you to create a modern
+									website design</p>
+							</div>
+						</div>
+						<div class="about__stack-item" data-aos="fade-up" data-aos-delay="200">
+							<div class="about__stack-img">
+								<img src="img/stack/st2.png" alt="st2">
+							</div>
+							<div class="about__stack-txt">
+								<span class="about__stack-num">/002</span>
+								<span class="about__stack-title">HTML & CSS</span>
+								<p class="about__stack-descript">Knowledge of hypertext markup and CSS allows you to
+									create
+									high-quality markup of the sites and incredibly beautiful styled sites</p>
+							</div>
+						</div>
+						<div class="about__stack-item" data-aos="fade-up">
+							<div class="about__stack-img">
+								<img src="img/stack/st3.png" alt="st3">
+							</div>
+							<div class="about__stack-txt">
+								<span class="about__stack-num">/003</span>
+								<span class="about__stack-title">JS & Jquery</span>
+								<p class="about__stack-descript">Proficiency in JS and JQ allows you to create
+									incredible
+									animations on any site</p>
+							</div>
+						</div>
+						<div class="about__stack-item" data-aos="fade-up" data-aos-delay="200">
+							<div class="about__stack-img">
+								<img src="img/stack/st4.png" alt="st4">
+							</div>
+							<div class="about__stack-txt">
+								<span class="about__stack-num">/004</span>
+								<span class="about__stack-title">VueJS</span>
+								<p class="about__stack-descript">Vue.js is a progressive, incrementally-adoptable
+									JavaScript framework for building UI on the web.</p>
+							</div>
+						</div>
+						<div class="about__stack-item" data-aos="fade-up">
+							<div class="about__stack-img">
+								<img src="img/stack/st5.png" alt="st5">
+							</div>
+							<div class="about__stack-txt">
+								<span class="about__stack-num">/005</span>
+								<span class="about__stack-title">Python / Flask</span>
+								<p class="about__stack-descript">Is an interpreted, high-level and
+									general-purpose programming language, Its language constructs
+									and object-oriented approach aim to help programmers write clear, logical code for
+									small and large-scale projects.</p>
+							</div>
+						</div>
+						<div class="about__stack-item" data-aos="fade-up" data-aos-delay="200">
+							<div class="about__stack-img">
+								<img src="img/stack/st6.png" alt="st6">
+							</div>
+							<div class="about__stack-txt">
+								<span class="about__stack-num">/006</span>
+								<span class="about__stack-title">PHP / Yii2 / Laravel</span>
+								<p class="about__stack-descript">
+									Fast, flexible and pragmatic, PHP powers everything from your blog to the most
+									popular websites in the world.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /section .stack END -->
+
+		<!-- section .steps -->
+		<section class="steps _padd_top-bott80">
+			<!-- div .wrapp-content -->
+			<div class="wrapp-content">
+				<!-- div .content -->
+				<div class="content">
+					<!-- div .about__title -->
+					<div class="about__title">
+						<h2 class="about__title-h2" data-aos="fade-left">
+							Steps Create
+							<span class="about__title-span" data-aos="fade-left" data-aos-delay="200">
+								<span>Project</span>
+							</span>
+						</h2>
+					</div>
+					<!-- /div .about__title END -->
+
+					<!-- div .steps__wrapp -->
+					<div class="steps__wrapp">
+
+						<div class="steps__item _cursor" data-aos="fade-up">
+							<div class="steps__head">
+								<h3><span class="steps__num">/001</span>Speak</h3>
+								<div class="steps_open"></div>
+							</div>
+							<div class="steps__descript">
+								<div class="steps__descript-wrapp">
+									<div class="steps__descript-txt">
+										<p>At this stage, a conversation is held with the customer in order to determine
+											which site needs to be created, the target audience is determined, and then
+											a detailed technical task is created!</p>
+									</div>
+									<div class="steps__descript-img">
+										<img src="img/step/step1.png" alt="step1">
+									</div>
+								</div>
+							</div>
+							<span class="steps__border _gradient"></span>
+						</div>
+
+						<div class="steps__item _cursor" data-aos="fade-up">
+							<div class="steps__head">
+								<h3><span class="steps__num">/002</span>Create Design</h3>
+								<div class="steps_open"></div>
+							</div>
+							<div class="steps__descript">
+								<div class="steps__descript-wrapp">
+									<div class="steps__descript-txt">
+										<p>Based on the terms of reference, a website design is created. The prototype
+											is created first, then the main design. The finished layout is transferred
+											to the client and awaits his approval. The design will be finalized until
+											until it is approved!</p>
+									</div>
+									<div class="steps__descript-img">
+										<img src="img/step/step2.png" alt="step2">
+									</div>
+								</div>
+							</div>
+							<span class="steps__border _gradient"></span>
+						</div>
+
+						<div class="steps__item _cursor" data-aos="fade-up">
+							<div class="steps__head">
+								<h3><span class="steps__num">/003</span>Create Site</h3>
+								<div class="steps_open"></div>
+							</div>
+							<div class="steps__descript">
+								<div class="steps__descript-wrapp">
+									<div class="steps__descript-txt">
+										<p>After successful confirmation of the design, the site layout begins. The
+											layout is transferred from the layout (picture) to the working site and
+											become dynamic. Fonts, CSS styles, JS libraries, cross-browser settings are
+											connected to the resource and adding a responsive version of the site!</p>
+									</div>
+									<div class="steps__descript-img">
+										<img src="img/step/step3.png" alt="step3">
+									</div>
+								</div>
+							</div>
+							<span class="steps__border _gradient"></span>
+						</div>
+
+						<div class="steps__item _cursor" data-aos="fade-up">
+							<div class="steps__head">
+								<h3><span class="steps__num">/004</span>Testing</h3>
+								<div class="steps_open"></div>
+							</div>
+							<div class="steps__descript">
+								<div class="steps__descript-wrapp">
+									<div class="steps__descript-txt">
+										<p>After a successful layout, testing begins. At this stage, functionality is
+											monitored site to identify errors, which are subsequently eliminated, and
+											then the finished project is transferred to the customer!</p>
+									</div>
+									<div class="steps__descript-img">
+										<img src="img/step/step4.png" alt="step4">
+									</div>
+								</div>
+							</div>
+							<span class="steps__border _gradient"></span>
+						</div>
+
+					</div>
+					<!-- /div .steps__wrapp END -->
+				</div>
+				<!-- /div .content END -->
+			</div>
+			<!-- /div .wrapp-content END -->
+		</section>
+		<!-- /section .steps END -->
+
+		<!-- section .services -->
+		<section id="services" class="services _padd_top-bott80">
+			<div class="wrapp-content">
+				<div class="content">
+					<div class="title">
+						<span data-aos="fade-left" data-aos-delay="200">/04</span>
+						<h2 class="title__h2" data-aos="fade-left">Services</h2>
+					</div>
+					<div class="services__wrapp">
+						<div class="services__item _cursor" data-service="Website Design" data-aos="fade-up">
+							<div class="services__price">
+								<span class="services__price-wrapp">
+									<span class="services__info">from<span class="services__date">100</span>usd</span>
+									<span class="services__order">order</span>
+								</span>
+							</div>
+							<div class="services__name">
+								<h3>Website Design<span class="services__num">/001</span></h3>
+							</div>
+							<div class="services__hover">
+								<div class="services__bg"></div>
+							</div>
+						</div>
+						<div class="services__item _cursor" data-service="Landing Page" data-aos="fade-up">
+							<div class="services__price">
+								<span class="services__price-wrapp">
+									<span class="services__info">from<span class="services__date">200</span>usd</span>
+									<span class="services__order">order</span>
+								</span>
+							</div>
+							<div class="services__name">
+								<h3>Create landing page<span class="services__num">/002</span></h3>
+							</div>
+							<div class="services__hover">
+								<div class="services__bg"></div>
+							</div>
+						</div>
+						<div class="services__item _cursor" data-service="Magazine On OpenCart" data-aos="fade-up">
+							<div class="services__price">
+								<span class="services__price-wrapp">
+									<span class="services__info">from<span class="services__date">400</span>usd</span>
+									<span class="services__order">order</span>
+								</span>
+							</div>
+							<div class="services__name">
+								<h3>Create magazine on Woo<span class="services__num">/003</span></h3>
+							</div>
+							<div class="services__hover">
+								<div class="services__bg"></div>
+							</div>
+						</div>
+
+						<div class="services__item _cursor" data-service="Corporative Site" data-aos="fade-up">
+							<div class="services__price">
+								<span class="services__price-wrapp">
+									<span class="services__info">from<span class="services__date">500</span>usd</span>
+									<span class="services__order">order</span>
+								</span>
+							</div>
+							<div class="services__name">
+								<h3>Create corporative site<span class="services__num">/004</span></h3>
+							</div>
+							<div class="services__hover">
+								<div class="services__bg"></div>
+							</div>
+						</div>
+						<div class="services__item _cursor" data-service="Blog On WordPress" data-aos="fade-up">
+							<div class="services__price">
+								<span class="services__price-wrapp">
+									<span class="services__info">from<span class="services__date">200</span>usd</span>
+									<span class="services__order">order</span>
+								</span>
+							</div>
+							<div class="services__name">
+								<h3>Create blog on WordPress<span class="services__num">/005</span></h3>
+							</div>
+							<div class="services__hover">
+								<div class="services__bg"></div>
+							</div>
+						</div>
+						<div class="services__item _cursor" data-service="Another Project" data-aos="fade-up">
+							<div class="services__price">
+								<span class="services__price-wrapp">
+									<span class="services__info services_another">let's discus</span>
+									<span class="services__order">order</span>
+								</span>
+							</div>
+							<div class="services__name">
+								<h3>Another project<span class="services__num">/006</span></h3>
+							</div>
+							<div class="services__hover">
+								<div class="services__bg"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /section .services END -->
+
+		<!-- section .contact -->
+		<section id="contact" class="contact _padd_top-bott80">
+			<!-- div .wrapp-content -->
+			<div class="wrapp-content">
+				<!-- div .content -->
+				<div class="content">
+					<!-- div .title -->
+					<div class="title">
+						<span class="title__num" data-aos="fade-left" data-aos-delay="200">/05</span>
+						<h2 class="title__h2" data-splitting=""><span class="title__h2-span" data-aos="anim_title"
+								data-splitting="">Contact</span></h2>
+					</div>
+					<!-- /div .title END-->
+
+					<!-- div .form__wrapp -->
+					<div class="form__wrapp">
+						<!-- div .form__enter -->
+						<form id="form__contact" action="#" class="form__enter">
+
+							<label for="name" class="form__label _cursor" data-aos="fade-up">
+								<span class="input_line"></span>
+								<input id="name" type="text" name="name" class="form__input form_style"
+									placeholder="Name*" required="">
+								<span class="input-placeholder">Name*</span>
+							</label>
+
+							<label for="email" class="form__label _cursor" data-aos="fade-up">
+								<span class="input_line"></span>
+								<input id="email" type="email" name="mail" class="form__input form_style"
+									placeholder="E-mail*" required="">
+								<span class="input-placeholder">E-mail*</span>
+							</label>
+
+							<label for="message" class="form__label _cursor" data-aos="fade-up">
+								<span class="input_line"></span>
+								<textarea name="message" id="message" class="form__input form__message form_style"
+									placeholder="Message"></textarea>
+								<span class="input-placeholder">Message</span>
+							</label>
+							<input type="hidden" name="send" value="Сообщение отправлено с формы контактов!">
+
+							<button type="submit" class="form__submit form_style _cursor"
+								data-aos="fade-up">send</button>
+
+						</form>
+						<!-- /div .form__enter END -->
+					</div>
+					<!-- /div .form__wrapp END -->
+
+					<!-- div .contact__email -->
+					<div class="contact__email">
+						<span class="contact__email-title"><span data-aos="anim_title">Get in touch</span></span>
+						<a href="#" class="contact__email-link _link "><span
+								class='khannn' data-aos="fade-left" >davidkhankhadjayev@mail.ru</span></a>
+					</div>
+					<!-- div .contact__email -->
+				</div>
+				<!-- /div .content END -->
+			</div>
+			<!-- /div .wrapp-content END -->
+		</section>
+		<!-- /section .contact END -->
+
+		<!-- footer .footer -->
+		<footer class="footer">
+			<!-- div .wrapp-content -->
+			<div class="wrapp-content">
+				<!-- div .content -->
+				<div class="content">
+					<!-- div .footer__wrapp -->
+					<div class="footer__wrapp">
+						<!-- div .footer__block -->
+						<div class="footer__block">
+							<div class="footer__block-wrapp">
+								<span class="logo">khan</span>
+								<ul class="footer__social">
+									<li class="footer__item">
+										<a href="#" class="footer__link _link" target="_blank">facebook</a>
+									</li>
+									<li class="footer__item">
+										<a href="https://t.me/davidkhan47" class="footer__link _link"
+											target="_blank">telegram</a>
+									</li>
+									<li class="footer__item">
+										<a href="https://instagram.com/davidkhan.__" class="footer__link _link"
+											target="_blank">instagram</a>
+									</li>
+								</ul>
+							</div>
+							<!-- <a href="index-1.htm" class="footer__blog _link" target="_blank">blog <img
+									src="img/arrow.png" alt="arrow"></a> -->
+						</div>
+						<!-- /div .footer__block END -->
+
+						<!-- div .footer__copyright -->
+						<div class="footer__copyright">
+							<span>© Khadjayev Davidkhan 2021</span>
+						</div>
+						<!-- /div .footer__copyright END -->
+					</div>
+					<!-- /div .footer__wrapp -->
+				</div>
+				<!-- /div .content END-->
+			</div>
+			<!-- /div .wrapp-content END -->
+		</footer>
+		<!-- /footer .footer END -->
+	</div>
+	<!-- /div .wrapp END -->
+
+	<!-- cursor-hover -->
+	<svg class="cursor" width="100" height="100" viewbox="0 0 140 140">
+		<defs>
+			<filter id="filter-1" x="-50%" y="-50%" width="200%" height="200%" filterunits="objectBoundingBox">
+				<feturbulence type="fractalNoise" basefrequency="0" numoctaves="10" result="warp"></feturbulence>
+				<fedisplacementmap xchannelselector="R" ychannelselector="G" scale="60" in="SourceGraphic" in2="warp">
+				</fedisplacementmap>
+			</filter>
+		</defs>
+		<circle class="cursor__inner" cx="70" cy="70" r="60"></circle>
+	</svg>
+	<!-- /cursor-hover END -->
+
+	<!-- script -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/three.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/hover-effect.umd.js"></script>
+	<script src="js/cursor-hover.js"></script>
+	<script src="js/menu-hover.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/splitting.min.js"></script>
+	<script src="js/js.js"></script>
+	<script type="text/javascript">
+		//preloader
+		const SETTINGS = {
+			rebound: {
+				tension: 2,
+				friction: 7
+			},
+			spinner: {
+				id: 'spinner',
+				radius: 170,
+				sides: 3,
+				depth: 9,
+				colors: {
+					background: '#f0f0f0',
+					stroke: null,
+					base: '#222',
+					child: '#f0f0f0'
+				},
+				alwaysForward: false, // When false the spring will reverse normally.
+				restAt: null, // A number from 0.1 to 0.9 || null for full rotation
+				renderBase: true
+			}
+		};
+
+		//hover-work
+		Array.from(document.querySelectorAll('.displacement')).forEach((e) => {
+			const imgs = Array.from(e.querySelectorAll('img'));
+			new hoverEffect({
+				parent: e,
+				intensity: 0.3,
+				image1: imgs[0].getAttribute('src'),
+				image2: imgs[1].getAttribute('src'),
+				displacementImage: 'img/displacement/hover.png'
+			});
+		})
+	</script>
+	<script src="js/preloader.js"></script>
+	<!-- /script END -->
+</body>
+
+</html>
